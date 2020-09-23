@@ -1,0 +1,184 @@
+body {
+  margin: 0px;
+  position: relative;
+  
+}
+
+header {
+  padding-right: 20px;
+  padding-left: 20px;
+  /*position: fixed;*/ 
+  height: 70px;
+}
+#mainheader {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listemother {
+  display: flex;
+  justify-content: space-between;
+}
+.listemother li {
+  list-style: none;
+}
+.liste{
+  margin: 5px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.paragraphe {
+  margin-top: 12.8px;
+  margin-bottom: 12.8px;
+  padding: 10px;
+  width: 40%;
+  text-align: justify;
+
+}
+.allignP {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  
+}
+.allignP p{
+  margin: 20px;
+}
+.titre{
+  color: rgb(0, 204, 177);
+}
+.service{
+  padding-top: 22px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.container{
+  display: flex;
+}
+.service{
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.couleur{
+  background-color: rgb(0, 204, 177); 
+
+}
+.color{
+  background-color: rgb(61, 131, 223);
+}
+.brands-logos li{
+  list-style: none;
+  margin: 0 15px;
+}
+.brands-logos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.justifier {
+  margin: 20px;
+}
+.bkg{
+  background-color: rgb(218, 246, 246);
+  display: flex;
+}
+.alignement{
+  text-align: center;
+  background-color: white;
+  width: 240px;
+  height: 280px;
+  border-radius:8px ;
+  padding: 12px;
+  margin: 10px;
+  
+}
+.h{
+  padding-top: 70px;
+}
+
+.stats{
+  margin-top: 50px;
+  margin-bottom: 88px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.world{
+  min-width: 45%;
+}
+.text-des{
+  font-size: 1.625em;
+  color: white;
+}
+.att{
+  display: flex;
+}
+.gr{
+  font-size: 30px;
+}
+.clr{
+  font-size: 20px;
+  color: white;
+}
+.main-footer {
+  border-top: 1px solid #1c5555;
+  font-size: .75em;
+  color: #ababab;
+  text-align: center;
+  padding: 1em 0;
+}
+.section__inner {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.headmain2{
+ text-align: center;
+ margin-left: 450px;
+ margin-right: 450px;
+
+}
+  
+
+
+.gr{
+  font-size: 30px;
+}
+.prgphe{
+ margin-top: 22.400px;
+ margin-bottom: 22.400px;
+}
+.fgr{
+  padding: 10px;
+  
+}
+.ctr{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 88px 167px 80px 167px;
+  
+}
+.office__desc{
+  display: flex;
+  justify-content: space-between; 
+}
